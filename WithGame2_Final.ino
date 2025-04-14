@@ -59,7 +59,7 @@ int sensorPins[numSensors] = {A0,A1}; // Example sensor pins
 int outputPins[numSensors] = {13,6}; // Example output pins
 int rollingSensorVal[numSensors][numSamples];
 int sensorIndex[numSensors] = {0, 0};
-int thresholds[numSensors] = {200,200}; // |whatever value - calibration value [i]| >= thresholds[i] so plug in the DIFFERENCE needed to trigger
+int thresholds[numSensors] = {250,250}; // |whatever value - calibration value [i]| >= thresholds[i] so plug in the DIFFERENCE needed to trigger
 
 // Arrays to store sensor values
 float sensorValues[numSensors];
